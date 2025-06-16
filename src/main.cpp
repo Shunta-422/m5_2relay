@@ -1,18 +1,13 @@
-#include <Arduino.h>
+#include <M5GFX.h>
+#include "MODULE_2RELAY.h"
 
-// put function declarations here:
-int myFunction(int, int);
+M5GFX display;
+MODULE_2RELAY relay;
 
 void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-}
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+  
 }
